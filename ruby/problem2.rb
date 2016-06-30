@@ -3,11 +3,6 @@ require 'minitest/autorun'
 
 module Euler
   class ProblemTwo
-    def solve n
-      # recursive_fibbonaci 1, 1, n
-      iterative_fibbonaci n
-    end
-
     # single pass recursive
     def recursive_fibbonaci n, m, max
       fib = n + m
